@@ -14,7 +14,7 @@ minikube version
 kubectl version --client
 ```
 
-![Minikube Installation & Version Verification](./task/screenshots/image.png)
+![Minikube Installation & Version Verification](./screenshots/image.png)
 
 ---
 
@@ -33,7 +33,7 @@ minikube status
 minikube stop
 ```
 
-![Minikube Cluster Lifecycle Verification](./task/screenshots/image%20copy.png)
+![Minikube Cluster Lifecycle Verification](./screenshots/image%20copy.png)
 
 ---
 
