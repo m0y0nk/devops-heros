@@ -8,7 +8,8 @@ spec:
       image: nginx:1.27
       volumeMounts:
         - name: host-storage
-          mountPath: /data
+        # changing the mountPath from /data to /folder
+          mountPath: /folder
   volumes:
     - name: host-storage
       hostPath:
