@@ -141,8 +141,6 @@ For the broken Pod, answer:
 | **Image Problem** | Failed event: `rpc error: code = NotFound desc = failed to pull ... docker.io/library/nginx:this-tag-does-not-exist: not found` | `kubectl describe pod project-broken-pod` | Non-existent image tag (`nginx:this-tag-does-not-exist`) specified in container spec | Replace image tag with a valid repository tag like `nginx:latest` or `nginx:alpine` in `broken-pod.yaml` |
 
 
-Here are concise 1–2 line answers for **12. README Questions**:
-
 ---
 
 ### README Questions**
