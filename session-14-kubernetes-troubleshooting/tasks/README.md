@@ -143,7 +143,7 @@ For the broken Pod, answer:
 
 ---
 
-### README Questions**
+### README Questions
 
 1. **What does `kubectl get` tell us?**  
    It lists cluster resources and provides a high-level summary of their current status, such as resource names, ready count, overall state, restart count, and IP addresses.
