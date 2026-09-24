@@ -6,7 +6,11 @@ metadata:
 
 spec:
   selector:
+<<<<<<< HEAD
     app: web-service
+=======
+    app: web-ahsgdf
+>>>>>>> 407f4652962adcb89e293b339fc7ad0374b3effc
 
   ports:
     - port: 80
