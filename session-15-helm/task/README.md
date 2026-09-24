@@ -15,7 +15,7 @@
 ![alt text](image-8.png)
 ![alt text](image-9.png)
 
-## ugrade
+## upgrade
 ![alt text](image-10.png)
 ![alt text](image-11.png)
 ![alt text](image-12.png)
@@ -27,3 +27,9 @@
 ![alt text](image-14.png)
 
 ## values
+![alt text](image-16.png)
+![alt text](image-15.png)
+
+## mini project
+![alt text](image-17.png)
+![alt text](image-18.png)
