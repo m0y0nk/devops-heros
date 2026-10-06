@@ -1,0 +1,22 @@
+#!/bin/bash
+set -euxo pipefail
+
+dnf install -y nginx
+cat > /usr/share/nginx/html/index.html <<'HTML'
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>${project_name}</title>
+  </head>
+  <body>
+    <main>
+      <h1>${project_name}</h1>
+      <p>Provisioned with Terraform in AWS region ${aws_region}.</p>
+    </main>
+  </body>
+</html>
+HTML
+
+systemctl enable --now nginx
